@@ -5,11 +5,11 @@ import { AboutComponent } from './components/about/about.component';
 import { ResumeComponent } from './components/resume/resume.component';
 
 const routes: Routes = [
-   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  //  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', component: HomeComponent },
   { path: 'about',title:'About', component: AboutComponent },
   { path: 'resume',title:'Resume', component: ResumeComponent },
-  { path: '**' , redirectTo: 'home', pathMatch: 'full' },
+  { path: '**' , redirectTo: '', pathMatch: 'full' },
 
 
 
