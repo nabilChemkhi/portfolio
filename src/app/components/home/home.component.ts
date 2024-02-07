@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faCheckCircle, faCoffee, faHouse } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -8,9 +7,7 @@ import { faCheckCircle, faCoffee, faHouse } from '@fortawesome/free-solid-svg-ic
 })
 export class HomeComponent {
 
-  faCheckCircle =faCheckCircle
-  faCoffee = faCoffee;
-  //faHouse=faHouse
+
 
 
   aboutLink='/about'
