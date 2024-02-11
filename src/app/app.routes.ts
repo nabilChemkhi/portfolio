@@ -6,4 +6,13 @@ export const routes: Routes = [
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
   // { path: 'home',title:'Home', component: HomeComponent },
   // { path: 'about',title:'About', component: AboutComponent },
+
+  // {
+  //   path: '',
+  //   component: HomeComponent,
+  //   children: [
+  //     { path: 'about',title:'About', component: AboutComponent },
+
+  //   ],
+  // },
 ];

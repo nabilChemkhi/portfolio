@@ -1,0 +1,82 @@
+{
+  "PHONE": "+216 24 336 629",
+  "HOME": "Accueil",
+  "ABOUT": "À propos",
+  "SERVICES": "Services",
+  "RESUME": "Curriculum Vitae",
+  "PORTFOLIO": "Portfolio",
+  "CONTACT": "Contact",
+
+  "Title_Header": "Nabil Chemkhi",
+  "WELCOME_TITLE1": "Je suis un passionné",
+  "WELCOME_TITLE2": "Ingénieur en logiciel",
+  "WELCOME_TITLE3": "de la Tunisie",
+
+  "About": {
+    "contact1": "À propos",
+    "contact2": "En savoir plus sur moi",
+    "prof1": "Ingénieur en logiciel",
+    "prof2": " Développeur Full Stack",
+    "name": "Nom :",
+    "name2": "Nabil Chemkhi",
+    "phone": "Téléphone :",
+    "phone2": "+216 24 336 629",
+
+    "City": "Ville :",
+    "City2": "Kairouan, Tunisie",
+    "Github": "Github :",
+    "Github2": "github.com/nabilChemkhi",
+    "Age": "Âge :",
+    "Age2": "31",
+    "Degree": "Diplôme :",
+    "Degree2": "Ingénieur en logiciel",
+    "Email": "Email :",
+    "Email2": "nabil.chemkhi@esprit.tn",
+    "Freelance": "Freelance :",
+    "Freelance2": "Disponible",
+    "ph": "Je suis un ingénieur en logiciel et développeur Full Stack passionné par la création de solutions innovantes. Avec une expertise dans diverses technologies, je m'engage à fournir des logiciels de haute qualité. N'hésitez pas à explorer mon GitHub pour découvrir de plus près mes projets.",
+    "ph2": "N'hésitez pas à me contacter par e-mail ou par téléphone. Je suis ouvert aux postes permanents (CDI) et aux opportunités freelance.",
+    "ph3": "Je suis enthousiaste à l'idée de relever de nouveaux défis et prêt à contribuer avec mes compétences et mon expertise.",
+    "desc": "Passionné par la création de solutions innovantes et repoussant les limites de la technologie."
+  },
+  "Count": {
+    "Count1": "Années d'expérience",
+    "Count2": "Projets",
+    "Count3": "CLIENTS",
+    "Count4": "Certifications"
+  },
+
+  "Skills": "Compétences",
+  "Technologies": "Technologies",
+  "Languages": {
+    "Languages": "Langues",
+    "Languages1": "Arabe",
+    "Languages2": "Français",
+    "Languages3": "Anglais",
+    "Languages4": "Italien"
+  },
+
+  "CONTACTCOMPONENET": {
+    "contct": "Contact",
+    "contct2": "Me contacter",
+    "Label1": "Mon adresse",
+    "Input1": "14, rue Khalifa Kaaloul, Ennkhilat, Ariana 2083 Tunisie",
+    "Label2": "Envoyez-moi un e-mail",
+    "Input2": "nabil.chemkhi@esprit.tn",
+    "Label3": "Appelez-moi",
+    "Input3": "+216 24 336 629",
+    "rs": "Profils sociaux",
+    "NAME": "Votre nom",
+    "EMAIL": "Votre e-mail",
+    "SUBJECT": "Sujet",
+    "MESSAGE": "Message",
+    "SEND": "Envoyer le message"
+  }
+
+
+
+
+
+
+
+  }

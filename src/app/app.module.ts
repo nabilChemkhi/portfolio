@@ -15,6 +15,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { ServicesComponent } from './components/services/services.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -29,6 +32,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderComponent,
     AboutComponent,
     ResumeComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    ContactComponent,
 
 
 

@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------
+# Credits
+--------------------------------------------------------------*/
+.credits {
+  position: fixed;
+  right: 0;
+
+  top: 0;
+  padding: 15px;
+  text-align: right;
+
+  text-size: 10px;
+  color: #fff;
+  z-index: 999999;
+}
+
+@media (max-width: 992px) {
+  .credits {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    left: 60%;
+    right: auto;
+  }
+}
+
+.credits a {
+ cursor: pointer;
+}
+
+

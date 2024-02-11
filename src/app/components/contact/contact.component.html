@@ -1,0 +1,74 @@
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>{{ 'CONTACTCOMPONENET.contct' | translate }}</h2>
+      <p>{{ 'CONTACTCOMPONENET.contct2' | translate }}</p>
+    </div>
+
+    <div class="row mt-2">
+
+      <div class="col-md-6 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-map"></i>
+          <h3>{{ 'CONTACTCOMPONENET.Label1' | translate }}</h3>
+          <p> {{ 'CONTACTCOMPONENET.Input1' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-share-alt"></i>
+          <h3>{{ 'CONTACTCOMPONENET.rs' | translate }}</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/nabil-chemkhi/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/chemkhinabil/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/+21624336629" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="skype:live:.cid.27f4ad9769befa69" class="skype" target="_blank"><i class="bi bi-skype"></i></a>
+            <a href="https://twitter.com/chemkhinabil" class="twitter-x" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-envelope"></i>
+          <h3>{{ 'CONTACTCOMPONENET.Label2' | translate }}</h3>
+          <p>{{ 'CONTACTCOMPONENET.Input2' | translate }}</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <div class="info-box">
+          <i class="bx bx-phone-call"></i>
+          <h3>{{ 'CONTACTCOMPONENET.Label3' | translate }}</h3>
+          <p>{{ 'CONTACTCOMPONENET.Input3' | translate }}</p>
+        </div>
+      </div>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="send()"   class="php-email-form mt-4">
+      <div class="row">
+        <div class="col-md-6 form-group">
+          <input type="text" formControlName="name"  class="form-control" id="name" placeholder="{{ 'CONTACTCOMPONENET.NAME' | translate }}" required>
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+          <input type="email" formControlName="email" class="form-control"  id="email" placeholder="{{ 'CONTACTCOMPONENET.EMAIL' | translate }}" required>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <input type="text" class="form-control" formControlName="subject"   id="subject" placeholder="{{ 'CONTACTCOMPONENET.SUBJECT' | translate }}" required>
+      </div>
+      <div class="form-group mt-3">
+        <textarea class="form-control" formControlName="message"  rows="5" placeholder="{{ 'CONTACTCOMPONENET.MESSAGE' | translate }}" required></textarea>
+      </div>
+      <div class="my-3">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your message has been sent. Thank you!</div>
+      </div>
+      <div class="text-center"><button type="submit">{{ 'CONTACTCOMPONENET.SEND' | translate }}</button></div>
+    </form>
+
+  </div>
+</section><!-- End Contact Section -->
