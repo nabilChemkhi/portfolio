@@ -22,7 +22,7 @@ switchLanguage(language: string) {
   this.actvLanguage = language;
  // console.log("Active language now:", this.actvLanguage);
   this.languageService.setLanguage(language);
-  this.languageService.setActiveLanguage(language);
+  //this.languageService.setActiveLanguage(language);
 
   //private cdr: ChangeDetectorRef
   // this.cdr.detectChanges();
