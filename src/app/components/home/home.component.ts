@@ -18,10 +18,11 @@ constructor(private translate: TranslateService,private languageService: Languag
 
 switchLanguage(language: string) {
 
-  console.log("Switching language to:", language);
+  //console.log("Switching language to:", language);
   this.actvLanguage = language;
-  console.log("Active language now:", this.actvLanguage);
+ // console.log("Active language now:", this.actvLanguage);
   this.languageService.setLanguage(language);
+  this.languageService.setActiveLanguage(language);
 
   //private cdr: ChangeDetectorRef
   // this.cdr.detectChanges();

@@ -18,6 +18,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { ServicesComponent } from './components/services/services.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TypedDirective } from './typed.directive';
 
 
 
@@ -36,7 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PortfolioComponent,
     ContactComponent,
 
-
+    TypedDirective
 
   ],
   imports: [
@@ -53,7 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+
 
 
 
@@ -64,7 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   // providers: [
   //   { provide: 'fas', useValue: fas },
   // ],
-  exports: [RouterModule],
+  exports: [RouterModule, TypedDirective],
 })
 export class AppModule {
 

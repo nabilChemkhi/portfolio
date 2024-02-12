@@ -134,6 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+
+
+
+
+
   /**
    * Skills animation
    */
@@ -247,6 +252,9 @@ document.addEventListener('DOMContentLoaded', () => {
   new PureCounter();
 
 })()
+
+
+
 
 
 });

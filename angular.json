@@ -46,6 +46,7 @@
               "src/assets/vendor/waypoints/noframework.waypoints.js",
               "src/assets/vendor/php-email-form/validate.js",
               "src/assets/js/main.js"
+
             ]
           },
           "configurations": {

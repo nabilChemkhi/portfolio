@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -21,4 +22,12 @@ export class LanguageService {
     const language = this.getLanguage();
     this.translate.use(language);
   }
+
+  private activeLanguageSubject = new BehaviorSubject<string>('en');
+  public activeLanguage$ = this.activeLanguageSubject.asObservable();
+
+  setActiveLanguage(language: string): void {
+    this.activeLanguageSubject.next(language);
+  }
 }
+
