@@ -99,7 +99,7 @@ i18next
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: '/portfolio/assets/i18n/{{lng}}.json',  // Adjust the path based on your deployment
+      loadPath: 'assets/i18n/{{lng}}.json',
     },
   });
 
