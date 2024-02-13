@@ -11,7 +11,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { routes } from './app.routes';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 //import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -21,6 +20,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TypedDirective } from './typed.directive';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 
@@ -65,6 +66,12 @@ export function HttpLoaderFactory(http: HttpClient) {
   bootstrap :[
     AppComponent
   ],
+  // providers: [
+  //   {
+  //     provide: HttpBackend,
+  //     useClass: HttpBackend
+  //   }
+  // ],
   // providers: [
   //   { provide: 'fas', useValue: fas },
   // ],
