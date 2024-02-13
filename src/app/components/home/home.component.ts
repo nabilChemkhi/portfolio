@@ -3,13 +3,14 @@ import { ChangeDetectorRef, Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
 
-// import i18next from 'i18next';
-// import XHR from 'i18next-xhr-backend';
-import { initializeI18n } from '@angular/localize/init';
+import XHR from 'i18next-xhr-backend';
+//import { initializeI18n } from '@angular/localize/init';
 
 
 // import  initializeI18n  from '@angular/localize/init';
 
+import i18next from 'i18next';
+import  LocalStorageBackend  from 'i18next-localstorage-backend';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -26,7 +27,7 @@ constructor(private translate: TranslateService,private languageService: Languag
   this.initI18next()
  }
 
- initI18next() {
+  initI18next() {
 //   i18next
 //   .use(XHR)
 //   .init({
@@ -37,10 +38,10 @@ constructor(private translate: TranslateService,private languageService: Languag
 //     },
 //   });
 
-initializeI18n({
-  translations: 'assets/i18n',
-  defaultLocale: 'en'
-});
+// initializeI18n({
+//   translations: 'assets/i18n',
+//   defaultLocale: 'en'
+// });
 
 
 // i18next
@@ -52,6 +53,28 @@ initializeI18n({
 //       loadPath: 'assets/i18n/{{lng}}.json',
 //     },
 //   });
+
+// i18next
+//   .use(I18NextLocalStorageBackend)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     backend: {
+//       loadPath: 'assets/i18n/{{lng}}.json',
+//       savePath: 'assets/i18n/{{lng}}.json',
+//     },
+//   });
+
+i18next
+  .use(LocalStorageBackend)
+  .init({
+    lng: 'en',
+    fallbackLng: 'en',
+    backend: {
+      loadPath: 'assets/i18n/{{lng}}.json',
+      savePath: 'assets/i18n/{{lng}}.json',
+    },
+  });
 
  }
 
