@@ -22,8 +22,8 @@ export class HomeComponent {
 aboutLink='/about'
 actvLanguage:string='en'
 constructor(private translate: TranslateService,private languageService: LanguageService){
- // translate.setDefaultLang('en'); // Set the default language
- // translate.use('en'); // Use English as the initial language
+ translate.setDefaultLang('en'); // Set the default language
+ translate.use('en'); // Use English as the initial language
 
 
   this.initI18next()
