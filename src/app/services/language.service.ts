@@ -23,11 +23,11 @@ export class LanguageService {
     this.translate.use(language);
   }
 
-  // private activeLanguageSubject = new BehaviorSubject<string>('en');
-  // public activeLanguage$ = this.activeLanguageSubject.asObservable();
+  private activeLanguageSubject = new BehaviorSubject<string>('en');
+  public activeLanguage$ = this.activeLanguageSubject.asObservable();
 
-  // setActiveLanguage(language: string): void {
-  //   this.activeLanguageSubject.next(language);
-  // }
+  setActiveLanguage(language: string): void {
+    this.activeLanguageSubject.next(language);
+  }
 }
 

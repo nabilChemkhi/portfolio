@@ -99,9 +99,13 @@ i18next
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: '/portfolio/assets/i18n/{{lng}}.json',
+      loadPath: 'assets/i18n/{{lng}}.json',
+      savePath: 'assets/i18n/{{lng}}.json',
     },
   });
+
+
+  console.log('loadPath:', '/portfolio/assets/i18n/{{lng}}.json');
 
  }
 
@@ -112,8 +116,8 @@ switchLanguage(language: string) {
   this.actvLanguage = language;
  // console.log("Active language now:", this.actvLanguage);
   this.languageService.setLanguage(language);
-  //this.languageService.setActiveLanguage(language);
-
+  this.languageService.setActiveLanguage(language);
+  console.log('loadPathswith:', 'assets/i18n/{{lng}}.json');
   //private cdr: ChangeDetectorRef
   // this.cdr.detectChanges();
 }
