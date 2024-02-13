@@ -65,8 +65,8 @@ i18next
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: '/portfolio/assets/i18n/{{lng}}.json',
-      savePath: '/portfolio/assets/i18n/{{lng}}.json',
+      loadPath: '/portfolio/assets3/i18n/{{lng}}.json',
+      savePath: '/portfolio/assets3/i18n/{{lng}}.json',
 
     },
   });
