@@ -2,15 +2,17 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
+import i18next from 'i18next';
 
 import XHR from 'i18next-xhr-backend';
 //import { initializeI18n } from '@angular/localize/init';
 
 
 // import  initializeI18n  from '@angular/localize/init';
+//import { HttpBackend } from 'i18next-http-backend';
 
-import i18next from 'i18next';
-import  LocalStorageBackend  from 'i18next-localstorage-backend';
+// import i18next from 'i18next';
+// import  LocalStorageBackend  from 'i18next-localstorage-backend';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -65,14 +67,39 @@ constructor(private translate: TranslateService,private languageService: Languag
 //     },
 //   });
 
+// i18next
+//   .use(LocalStorageBackend)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     backend: {
+//       loadPath: 'assets/i18n/{{lng}}.json',
+//       savePath: 'assets/i18n/{{lng}}.json',
+//     },
+//   });
+
+
+// const httpBackend = new HttpBackend();
+
+// httpBackend.loadPath = 'assets/i18n/{{lng}}.json';
+
+// i18next
+//   .use(HttpBackend)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     backend: {
+//       loadPath: 'assets/i18n/{{lng}}.json',
+//     },
+//   });
+
 i18next
-  .use(LocalStorageBackend)
+  .use(XHR)
   .init({
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: 'assets/i18n/{{lng}}.json',
-      savePath: 'assets/i18n/{{lng}}.json',
+      loadPath: '/portfolio/assets/i18n/{{lng}}.json',  // Adjust the path based on your deployment
     },
   });
 
