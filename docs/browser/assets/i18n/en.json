@@ -1,0 +1,153 @@
+{
+    "PHONE": "+216 24 336 629",
+    "HOME": "Home",
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "RESUME":"Resume",
+    "PORTFOLIO":"Portfolio",
+    "CONTACT": "Contact",
+
+    "Title_Header": "Nabil Chemkhi",
+
+
+    "WELCOME_TITLE1": "I'm a passionate",
+  "WELCOME_TITLE2": "Software engineer",
+  "WELCOME_TITLE3": "from Tunisia",
+    "About": {
+      "contact1":"About",
+      "contact2":"Learn more about me",
+      "prof1":"Software Engineer",
+      "prof2": " Full Stack Developer",
+      "name": "Name:",
+      "name2": "Nabil Chemkhi",
+      "phone": "Phone:",
+      "phone2": "+216 24 336 629",
+
+      "City": "City:",
+      "City2": "Kairouan, Tunisia",
+      "Github": "Github:",
+      "Github2": "github.com/nabilChemkhi",
+      "Age": "Age:",
+      "Age2": "31",
+      "Degree": "Degree:",
+      "Degree2": "Software engineer",
+      "Email": "Email:",
+      "Email2": "nabil.chemkhi@esprit.tn",
+      "Freelance": "Freelance:",
+      "Freelance2": "Available",
+      "ph": "I am a Software Engineer and Full Stack Developer with a passion for creating innovative solutions.With expertise in various technologies, I am dedicated to delivering high-quality software.Feel free to explore my GitHub for a closer look at my projects.",
+      "ph2": "Let's connect! Feel free to reach out to me via the email or phone number listed below I am open to both permanent (CDI) positions and freelance opportunities.",
+      "ph3": "I am excited about new challenges and ready to contribute my skills and expertise.",
+      "desc":"Passionate about creating innovative solutions and pushing the boundaries of technology."
+
+    },
+    "Count": {
+      "Count1":"Years of experience",
+      "Count2":"Projects",
+      "Count3":"TOTAL CLIENTS",
+      "Count4":"Certifications"
+    },
+
+    "Skills":"Skills",
+    "Technologies":"Technologies",
+    "Languages":{
+      "Languages":"Languages",
+      "Languages1":"Arabic",
+      "Languages2":"Frensh",
+      "Languages3":"English",
+      "Languages4":"Italien"
+    },
+
+    "CONTACTCOMPONENET": {
+      "contct":"Contact",
+      "contct2":"Contact Me",
+      "Label1": "My Address",
+      "Input1": "14 Khalifa Kaaloul Street, Ennkhilat,Ariana 2083 Tunisia",
+      "Label2": "Email Me",
+      "Input2": "nabil.chemkhi@esprit.tn",
+      "Label3": "Call Me",
+      "Input3": "+216 24 336 629",
+      "rs": "Social Profiles",
+      "NAME": "Your Name",
+        "EMAIL": "Your Email",
+        "SUBJECT": "Subject",
+        "MESSAGE": "Message",
+        "SEND": "Send Message"
+    },
+
+    "Resume": {
+      "Resume":"Resume",
+      "Resume2":"Check My Resume",
+      "Resume3":"Sumary",
+      "Resume4":"Nabil Chemkhi",
+      "adr":"Kairouan, Tunisia",
+      "mail":"nabil.chemkhi@esprit.tn",
+      "phn":"+216 24 336 629",
+      "desc":"Passionate and detail-oriented Software Engineer with experience in designing and developing innovative and efficient software solutions. Dedicated to delivering high-quality code and meeting project deadlines."
+    },
+
+      "Education": {
+        "WebSite":"Web Site",
+        "Education":"Education",
+        "Education1":"SAE: Software Architecture Engineering",
+        "Education11":"ESPRIT: Private School of Engineering and Technologies  ",
+        "Education111":"Ariana, Tunisia",
+        "Education2":"SE: Software Engineering",
+        "Education22":"ENIT: National School of Engineers of Tunis",
+        "Education222":"Tunis, Tunisia",
+        "Education3":"MPSI: Mathematics, Physics, and Engineering Sciences",
+        "Education33":"IPEIN: Preparatory Institute for Engineering Studies in Nabeul",
+        "Education333":" Nabeul , Tunisia"
+      },
+
+      "Exp": {
+        "Technologies":"Technologies",
+        "Exp":"Professional Experience",
+        "Exp1":"Java backend Developer",
+        "Exp11":"Internship / End-of-Study Project  ",
+        "Exp111":"GD CollectData",
+        "Exp1111":" | Villejuif, Île-de-France",
+        "Exp1Titel":"iMakerBot",
+        "Exp1SubTitel":": Chatbot Creation Platform",
+        "Exp1Desc1":"I contributed to the iMakerBot project. My role involved creating RESTful APIs, developing microservices with Spring Cloud, Docker, Kubernetes, and integrating NLP. ",
+        "Exp1Desc2":"This experience enhanced my practical understanding of service-oriented architectures and solidified my technical skills in software development.",
+        "Exp1Techs":": Java, Spring Boot, SQL, Spring Cloud, Docker, Kubernetes, PostgreSQL, Spring Security, JUnit, Git",
+
+        "Exp2":"Java Full Stack Developer",
+        "Exp22":"ENGINEERING INTERNSHIP",
+        "Exp222":"Xtensus",
+        "Exp2222":" |  Ariana, Tunisia",
+        "Exp2Titel":"E-EVALUATION",
+        "Exp2SubTitel":": Electronic Evaluation of Bids",
+        "Exp2Desc1":"participated in the E-EVALUATION project focused on the electronic evaluation of bids. My contribution involved development in JEE, Spring MVC, Hibernate, and JSF. ",
+        "Exp2Desc2":"This experience enhanced my skills in dynamic web application development and contributed to my proficiency in enterprise-oriented Java technologies.",
+        "Exp2Techs":": java8, JEE, Spring MVC, Hibernate, JSF, PrimeFaces, SQL"
+      },
+
+      "Serv": {
+        "ServTitle":"MY SERVICES",
+        "Serv1Title":"Static Website Development",
+        "Serv1Desc":"Crafting sleek and responsive static websites using modern technologies. I ensure your website delivers a seamless user experience with fast loading times and a visually appealing design.",
+
+        "Serv2Title":"Dynamic Website Development",
+        "Serv2Desc":"Empowering your online presence with dynamic websites. I specialize in creating interactive and feature-rich websites that adapt to user preferences, ensuring a dynamic and engaging user experience.",
+
+        "Serv3Title":"REST API Development",
+        "Serv3Desc":"Building robust and scalable RESTful APIs to power your applications. I focus on efficient data communication and seamless integration, ensuring your systems communicate effectively.",
+
+        "Serv4Title":"Mobile Application Development",
+        "Serv4Desc":"Crafting innovative and user-friendly mobile applications tailored to your needs. From concept to deployment, I ensure your app delivers an exceptional user experience across various devices.",
+
+        "Serv5Title":"Deployment",
+        "Serv5Desc":"After trials and following all processes, your website or application is ready to launch, ensuring a smooth and efficient go-live.",
+
+        "Serv6Title":"Support & Maintenance",
+        "Serv6Desc":"Post-launch, I'm here to provide ongoing support, ensuring your website or application continues to operate seamlessly. Quick responses to your queries and efficient issue resolution are my top priorities."
+
+      }
+
+
+
+
+
+  }

@@ -10,9 +10,12 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+
         "build": {
+
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/portfolio/",
             "outputPath": "dist/portfolio",
             "index": "src/index.html",
             "browser": "src/main.ts",
