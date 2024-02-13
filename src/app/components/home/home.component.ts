@@ -2,11 +2,14 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
+import i18next from 'i18next';
+import XHR from 'i18next-xhr-backend';
 // import i18next from 'i18next';
 // import XHR from 'i18next-xhr-backend';
+//import { initializeI18n } from '@angular/localize/init';
 
 
-
+// import  initializeI18n  from '@angular/localize/init';
 
 @Component({
   selector: 'app-home',
@@ -34,6 +37,23 @@ constructor(private translate: TranslateService,private languageService: Languag
 //       loadPath: 'assets/i18n/{{lng}}.json',
 //     },
 //   });
+
+// initializeI18n({
+//   translations: 'assets/i18n',
+//   defaultLocale: 'en'
+// });
+
+
+i18next
+  .use(XHR)
+  .init({
+    lng: 'en',
+    fallbackLng: 'en',
+    backend: {
+      loadPath: 'assets/i18n/{{lng}}.json',
+    },
+  });
+
  }
 
 

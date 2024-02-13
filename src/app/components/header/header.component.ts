@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, ElementRef, OnInit, Directive, Signal, signal, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import Typed from 'typed.js';
+//import Typed from 'typed.js';
 import { LanguageService } from '../../services/language.service';
 
 @Component({
