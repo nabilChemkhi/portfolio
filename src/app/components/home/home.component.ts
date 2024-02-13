@@ -1,6 +1,11 @@
+
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
+// import i18next from 'i18next';
+// import XHR from 'i18next-xhr-backend';
+
+
 
 
 @Component({
@@ -12,9 +17,25 @@ export class HomeComponent {
 aboutLink='/about'
 actvLanguage:string='en'
 constructor(private translate: TranslateService,private languageService: LanguageService){
-  translate.setDefaultLang('en'); // Set the default language
-  translate.use('en'); // Use English as the initial language
-}
+ // translate.setDefaultLang('en'); // Set the default language
+ // translate.use('en'); // Use English as the initial language
+
+
+  this.initI18next()
+ }
+
+ initI18next() {
+//   i18next
+//   .use(XHR)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     backend: {
+//       loadPath: 'assets/i18n/{{lng}}.json',
+//     },
+//   });
+ }
+
 
 switchLanguage(language: string) {
 

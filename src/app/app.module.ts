@@ -66,7 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   // providers: [
   //   { provide: 'fas', useValue: fas },
   // ],
-  exports: [RouterModule, TypedDirective],
+  //exports: [RouterModule, TypedDirective],
 })
 export class AppModule {
 

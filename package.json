@@ -15,6 +15,7 @@
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
+    "@angular/localize": "^17.1.2",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
@@ -26,8 +27,10 @@
     "@ngx-translate/http-loader": "^8.0.0",
     "emailjs-com": "^3.2.0",
     "gh-pages": "^6.1.1",
+    "i18next": "^23.8.2",
+    "i18next-xhr-backend": "^3.2.2",
     "rxjs": "~7.8.0",
-    "sweetalert2": "^11.10.4",
+    "sweetalert2": "^11.6.13",
     "tslib": "^2.3.0",
     "typed.js": "^2.1.0",
     "zone.js": "~0.14.2"
@@ -36,6 +39,8 @@
     "@angular-devkit/build-angular": "^17.0.4",
     "@angular/cli": "^17.0.4",
     "@angular/compiler-cli": "^17.0.0",
+    "@types/i18next": "^13.0.0",
+    "@types/i18next-xhr-backend": "^1.4.2",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
@@ -43,6 +48,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.2.2"
+    "typescript": "^5.3.3"
   }
 }
