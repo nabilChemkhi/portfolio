@@ -65,12 +65,19 @@ i18next
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: '/portfolio/assets3/i18n/{{lng}}.json',
-      savePath: '/portfolio/assets3/i18n/{{lng}}.json',
+      loadPath: '/portfolio/assets/i18n/{{lng}}.json',
+      savePath: '/portfolio/assets/i18n/{{lng}}.json',
 
     },
   });
 
+  i18next.loadLanguages('en', undefined)
+  .then(() => {
+    console.log(" Translation loaded, proceed with component initialization")
+  })
+  .catch((error) => {
+    console.log("hhhhhhhhhhhhh"+error)
+  });
 
 
 
