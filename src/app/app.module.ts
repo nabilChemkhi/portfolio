@@ -64,16 +64,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   bootstrap :[
     AppComponent
   ],
-  // providers: [
-  //   {
-  //     provide: HttpBackend,
-  //     useClass: HttpBackend
-  //   }
-  // ],
-  // providers: [
-  //   { provide: 'fas', useValue: fas },
-  // ],
-  //exports: [RouterModule, TypedDirective],
+
 })
 export class AppModule {
 

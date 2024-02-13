@@ -58,7 +58,7 @@ constructor(private translate: TranslateService,private languageService: Languag
 //       loadPath: 'assets/i18n/{{lng}}.json',
 //     },
 //   });
-
+debugger;
 i18next
   .use(XHR)
   .init({
@@ -66,10 +66,11 @@ i18next
     fallbackLng: 'en',
     backend: {
       loadPath: '/portfolio/assets/i18n/{{lng}}.json',
-      savePath: '/portfolio/assets/i18n/{{lng}}.json',
+      //savePath: '/portfolio/assets/i18n/{{lng}}.json',
 
     },
   });
+
 
   i18next.loadLanguages('en', undefined)
   .then(() => {
