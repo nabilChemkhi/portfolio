@@ -99,7 +99,7 @@ i18next
     lng: 'en',
     fallbackLng: 'en',
     backend: {
-      loadPath: 'assets/i18n/{{lng}}.json',
+      loadPath: '/portfolio/assets/i18n/{{lng}}.json',
     },
   });
 
