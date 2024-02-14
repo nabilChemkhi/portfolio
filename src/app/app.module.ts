@@ -19,6 +19,7 @@ import { TypedDirective } from './typed.directive';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { Translate1Pipe } from './tranlate1.pipe';
 
 
 
@@ -38,7 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     PortfolioComponent,
     ContactComponent,
 
-    TypedDirective
+    TypedDirective,
+    Translate1Pipe
 
   ],
   imports: [
