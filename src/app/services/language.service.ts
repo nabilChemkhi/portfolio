@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import i18next from 'i18next';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
@@ -12,6 +13,7 @@ export class LanguageService {
   setLanguage(language: string) {
     this.translate.use(language);
     localStorage.setItem('language', language);
+    i18next.changeLanguage(language);
   }
 
   getLanguage() {

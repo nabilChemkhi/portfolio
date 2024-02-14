@@ -37,9 +37,9 @@ constructor(private translate: TranslateService,private languageService: Languag
 
 
   const xhr = new XHR(null, this.options);
-  console.log('xhrloging   ' + xhr )
-  console.log(' xhr.options  ' +  xhr.options , )
-  console.log('xhr.loadUrl  ' + xhr.loadUrl )
+  // console.log('xhrloging   ' + xhr )
+  // console.log(' xhr.options  ' +  xhr.options , )
+  // console.log('xhr.loadUrl  ' + xhr.loadUrl )
 
   this.initI18next(xhr)
  }
@@ -50,9 +50,11 @@ constructor(private translate: TranslateService,private languageService: Languag
 }
 
 translate1(key: string) {
-  console.log('key' +  i18next.t(key))
+  //console.log('key' +  i18next.t(key))
 
   return i18next.t(key);
+  //i18next.language
+
 }
 
 
@@ -64,10 +66,10 @@ translate1(key: string) {
          .use(xhr)
 
          .init({
-        //    lng: 'fr',
-        //    fallbackLng: 'en',
-        //   // loadPath: '/assets/i18n/{{lng}}.json',
-        // //   savePath: '/assets/i18n/{{lng}}.json',
+           lng: 'en',
+           fallbackLng: 'en',
+          // loadPath: '/assets/i18n/{{lng}}.json',
+        //   savePath: '/assets/i18n/{{lng}}.json',
         // backend: this.options,
         });
 /******************* */
@@ -136,6 +138,7 @@ switchLanguage(language: string) {
   this.languageService.setActiveLanguage(language);
   //private cdr: ChangeDetectorRef
   // this.cdr.detectChanges();
+  //i18next.changeLanguage(language);
 }
 
 
