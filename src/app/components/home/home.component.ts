@@ -37,16 +37,18 @@ constructor(private translate: TranslateService,private languageService: Languag
   this.initI18next()
 
   const xhr = new XHR(null, this.options);
-  console.log('xhrloging' + xhr ,  xhr.options , xhr.loadUrl)
+  console.log('xhrloging   ' + xhr )
+  console.log(' xhr.options  ' +  xhr.options , )
+  console.log('xhr.loadUrl  ' + xhr.loadUrl )
  }
  options={
-  loadPath: 'assets/i18n/{{lng}}.json',
+  loadPath: '/portfolio/assets/i18n/{{lng}}.json',
   // path to post missing resources
-  addPath: 'assets/i18n/{{lng}}.json'
+  addPath: '/portfolio/assets/i18n/{{lng}}.json'
 }
 
 translate1(key: string) {
-  console.log('key' +key)
+  console.log('key' +key , i18next.t(key))
   return i18next.t(key);
 }
 
@@ -57,8 +59,9 @@ translate1(key: string) {
       // Initialize i18next
       i18next
          .use(XHR)
+
          .init({
-           lng: 'en',
+           lng: 'fr',
            fallbackLng: 'en',
           // loadPath: '/assets/i18n/{{lng}}.json',
         //   savePath: '/assets/i18n/{{lng}}.json',
