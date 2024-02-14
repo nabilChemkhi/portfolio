@@ -44,9 +44,9 @@ constructor(private translate: TranslateService,private languageService: Languag
   this.initI18next(xhr)
  }
  options={
-  loadPath: '/assets/i18n/{{lng}}.json',
+  loadPath: '/portfolio/assets/i18n/{{lng}}.json',
   // path to post missing resources
-  addPath: '/assets/i18n/{{lng}}.json'
+  addPath: '/portfolio/assets/i18n/{{lng}}.json'
 }
 
 translate1(key: string) {
