@@ -2,9 +2,9 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
-import i18next from 'i18next';
+//import i18next from 'i18next';
 
-import XHR from 'i18next-xhr-backend';
+
 //import { initializeI18n } from '@angular/localize/init';
 
 
@@ -13,6 +13,14 @@ import XHR from 'i18next-xhr-backend';
 
 // import i18next from 'i18next';
 // import  LocalStorageBackend  from 'i18next-localstorage-backend';
+
+//import HttpBackend from 'i18next-http-backend';
+// import * as i18next from 'i18next';
+// import XHR from 'i18next-xhr-backend';
+
+
+import i18next from 'i18next';
+import XHR from 'i18next-xhr-backend';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -27,12 +35,36 @@ constructor(private translate: TranslateService,private languageService: Languag
 
 
   this.initI18next()
+
+  const xhr = new XHR(null, this.options);
+  console.log('xhrloging' + xhr ,  xhr.options , xhr.loadUrl)
  }
+ options={
+  loadPath: 'assets/i18n/{{lng}}.json',
+  // path to post missing resources
+  addPath: 'assets/i18n/{{lng}}.json'
+}
+
+translate1(key: string) {
+  console.log('key' +key)
+  return i18next.t(key);
+}
+
+
 
   initI18next() {
 
-
-
+      // Initialize i18next
+      i18next
+         .use(XHR)
+         .init({
+           lng: 'en',
+           fallbackLng: 'en',
+          // loadPath: '/assets/i18n/{{lng}}.json',
+        //   savePath: '/assets/i18n/{{lng}}.json',
+        backend: this.options,
+        });
+/******************* */
 // i18next
 //   .use(LocalStorageBackend)
 //   .init({
@@ -58,28 +90,32 @@ constructor(private translate: TranslateService,private languageService: Languag
 //       loadPath: 'assets/i18n/{{lng}}.json',
 //     },
 //   });
-debugger;
-i18next
-  .use(XHR)
-  .init({
-    lng: 'en',
-    fallbackLng: 'en',
-    backend: {
-      loadPath: '/portfolio/assets/i18n/{{lng}}.json',
-      //savePath: '/portfolio/assets/i18n/{{lng}}.json',
+//debugger;
+// i18next
+//   .use(XHR)
+//   .init({
+//     lng: 'en',
+//     fallbackLng: 'en',
+//     backend: {
+//       loadPath: '/portfolio/assets/i18n/{{lng}}.json',
+//       //savePath: '/portfolio/assets/i18n/{{lng}}.json',
 
-    },
-  });
+//     },
+//   });
 
 
-  i18next.loadLanguages('en', undefined)
-  .then(() => {
-    console.log(" Translation loaded, proceed with component initialization")
-  })
-  .catch((error) => {
-    console.log("hhhhhhhhhhhhh"+error)
-  });
+  // const httpBackend = new HttpBackend({
+  //   loadPath: '/portfolio/assets/i18n/{{lng}}.json',
+  // });
 
+
+
+  // i18next
+  //   .use(httpBackend)
+  //   // ... other i18next options
+  //   .init(
+
+  //   );
 
 
  }

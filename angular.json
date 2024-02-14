@@ -15,7 +15,7 @@
 
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-
+            "baseHref": "/portfolio/",
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -97,6 +97,9 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "buildTarget": "portfolio:build"
+
+
+
           }
         },
         "test": {

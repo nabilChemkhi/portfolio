@@ -21,6 +21,7 @@ export class LanguageService {
   initializeLanguage() {
     const language = this.getLanguage();
     this.translate.use(language);
+
   }
 
   private activeLanguageSubject = new BehaviorSubject<string>('en');
