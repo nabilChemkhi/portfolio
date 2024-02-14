@@ -34,12 +34,14 @@ constructor(private translate: TranslateService,private languageService: Languag
  translate.use('en'); // Use English as the initial language
 
 
-  this.initI18next()
+
 
   const xhr = new XHR(null, this.options);
   console.log('xhrloging   ' + xhr )
   console.log(' xhr.options  ' +  xhr.options , )
   console.log('xhr.loadUrl  ' + xhr.loadUrl )
+
+  this.initI18next(xhr)
  }
  options={
   loadPath: '/portfolio/assets/i18n/{{lng}}.json',
@@ -48,24 +50,25 @@ constructor(private translate: TranslateService,private languageService: Languag
 }
 
 translate1(key: string) {
-  console.log('key' +key , i18next.t(key))
+  console.log('key' +  i18next.t(key))
+
   return i18next.t(key);
 }
 
 
 
-  initI18next() {
+  initI18next(xhr:any) {
 
       // Initialize i18next
       i18next
-         .use(XHR)
+         .use(xhr)
 
          .init({
-           lng: 'fr',
-           fallbackLng: 'en',
-          // loadPath: '/assets/i18n/{{lng}}.json',
-        //   savePath: '/assets/i18n/{{lng}}.json',
-        backend: this.options,
+        //    lng: 'fr',
+        //    fallbackLng: 'en',
+        //   // loadPath: '/assets/i18n/{{lng}}.json',
+        // //   savePath: '/assets/i18n/{{lng}}.json',
+        // backend: this.options,
         });
 /******************* */
 // i18next
