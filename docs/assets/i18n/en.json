@@ -144,6 +144,16 @@
         "Serv6Title":"Support & Maintenance",
         "Serv6Desc":"Post-launch, I'm here to provide ongoing support, ensuring your website or application continues to operate seamlessly. Quick responses to your queries and efficient issue resolution are my top priorities."
 
+      },
+
+      "Portfolio": {
+        "works":"My Works",
+        "dev":"Web Development",
+        "demo":"Live Demo",
+        "folio1":"IA² Team Web Site",
+        "folio1Desc":"Static website developed with Angular.",
+        "folio2":"LG-Groupe Web Site",
+        "folio2Desc":"Static website developed with Angular."
       }
 
 

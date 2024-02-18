@@ -143,7 +143,17 @@
 
       "Serv6Title": "Support et maintenance",
       "Serv6Desc": "Après le lancement, je suis là pour fournir un support continu, garantissant que votre site web ou votre application continue de fonctionner sans problème. Des réponses rapides à vos questions et une résolution efficace des problèmes sont mes principales priorités."
-    }
+    },
+
+"Portfolio": {
+  "works": "Mes Travaux",
+  "dev": "Développement Web",
+  "demo": "Démo en live",
+  "folio1": "Site Web IA² Team",
+  "folio1Desc": "Site web statique développé avec Angular.",
+  "folio2": "Site Web LG-Groupe",
+  "folio2Desc": "Site web statique développé avec Angular."
+  }
 
 
 
