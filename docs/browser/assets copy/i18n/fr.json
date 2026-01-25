@@ -1,0 +1,165 @@
+{
+  "PHONE": "+216 24 336 629",
+  "HOME": "Accueil",
+  "ABOUT": "À propos",
+  "SERVICES": "Services",
+  "RESUME": "Curriculum Vitae",
+  "PORTFOLIO": "Portfolio",
+  "CONTACT": "Contact",
+
+  "Title_Header": "Nabil Chemkhi",
+
+  "WELCOME_TITLE1": "Je suis",
+  "WELCOME_TITLE2": " Ingénieur",
+  "WELCOME_TITLE3": "passionné de la Tunisie",
+
+  "About": {
+    "contact1": "À propos",
+    "contact2": "En savoir plus sur moi",
+    "prof1": "Ingénieur en logiciel",
+    "prof2": " Développeur Full Stack",
+    "name": "Nom :",
+    "name2": "Nabil Chemkhi",
+    "phone": "Téléphone :",
+    "phone2": "+216 24 336 629",
+
+    "City": "Ville :",
+    "City2": "Kairouan, Tunisie",
+    "Github": "Github :",
+    "Github2": "github.com/nabilChemkhi",
+    "Age": "Âge :",
+    "Age2": "31",
+    "Degree": "Diplôme :",
+    "Degree2": "Ingénieur en logiciel",
+    "Email": "Email :",
+    "Email2": "nabil.chemkhi@esprit.tn",
+    "Freelance": "Freelance :",
+    "Freelance2": "Disponible",
+    "ph": "Je suis un ingénieur en logiciel et développeur Full Stack passionné par la création de solutions innovantes. Avec une expertise dans diverses technologies, je m'engage à fournir des logiciels de haute qualité. N'hésitez pas à explorer mon GitHub pour découvrir de plus près mes projets.",
+    "ph2": "N'hésitez pas à me contacter par e-mail ou par téléphone. Je suis ouvert aux postes permanents (CDI) et aux opportunités freelance.",
+    "ph3": "Je suis enthousiaste à l'idée de relever de nouveaux défis et prêt à contribuer avec mes compétences et mon expertise.",
+    "desc": "Passionné par la création de solutions innovantes et repoussant les limites de la technologie."
+  },
+  "Count": {
+    "Count1": "Années d'expérience",
+    "Count2": "Projets",
+    "Count3": "CLIENTS",
+    "Count4": "Certifications"
+  },
+
+  "Skills": "Compétences",
+  "Technologies": "Technologies",
+  "Languages": {
+    "Languages": "Langues",
+    "Languages1": "Arabe",
+    "Languages2": "Français",
+    "Languages3": "Anglais",
+    "Languages4": "Allmend"
+  },
+
+  "CONTACTCOMPONENET": {
+    "contct": "Contact",
+    "contct2": "Me contacter",
+    "Label1": "Mon adresse",
+    "Input1": "14, rue Khalifa Kaaloul, Ennkhilat, Ariana 2083 Tunisie",
+    "Label2": "Envoyez-moi un e-mail",
+    "Input2": "nabil.chemkhi@esprit.tn",
+    "Label3": "Appelez-moi",
+    "Input3": "+216 24 336 629",
+    "rs": "Profils sociaux",
+    "NAME": "Votre nom",
+    "EMAIL": "Votre e-mail",
+    "SUBJECT": "Sujet",
+    "MESSAGE": "Message",
+    "SEND": "Envoyer le message"
+  },
+
+  "Resume": {
+    "Resume": "Curriculum Vitae",
+    "Resume2": "Consultez mon CV",
+    "Resume3": "Résumé",
+    "Resume4": "Nabil Chemkhi",
+    "adr": "Kairouan, Tunisie",
+    "mail": "nabil.chemkhi@esprit.tn",
+    "phn": "+216 24 336 629",
+    "desc": "Ingénieur logiciel passionné et soucieux des détails avec de l'expérience dans la conception et le développement de solutions logicielles innovantes et efficaces. Engagé à fournir un code de haute qualité et à respecter les délais du projet."
+  },
+
+    "Education": {
+      "WebSite":"Site Web",
+      "Education":"ÉDUCATION",
+      "Education1":"SAE: Ingénierie de l'architecture logicielle",
+      "Education11":"ESPRIT:  École Sup Privée d'Ingénierie et de Technologies  ",
+      "Education111":"Ariana, Tunisie",
+      "Education2":"GL: Génie logiciel",
+      "Education22":"ENIT: École Nationale d'Ingénieurs de Tunis",
+      "Education222":"Tunis, Tunisie",
+      "Education3":"MPSI: : Mathématiques, Physique et Sciences de l'Ingénieur",
+      "Education33":"IPEIN: : Institut Préparatoire aux Études d'Ingénieurs de Nabeul",
+      "Education333":" Nabeul , Tunisie"
+    },
+
+    "Exp": {
+      "Technologies":"Technologies",
+      "Exp":"Expérience Professionnelle",
+      "Exp1":"Développeur Java Backend",
+      "Exp11":"Stage",
+      "Exp111":"GD CollectData",
+      "Exp1111":" | Villejuif, Île-de-France",
+      "Exp1Titel":"iMakerBot",
+        "Exp1SubTitel":": Platform de création de chatbots",
+        "Exp1Desc1":"J'ai contribué au projet iMakerBot. Mon rôle a impliqué la création d'API REST, le développement de microservices avec Spring Cloud, Docker, Kubernetes et l'intégration de NLP. ",
+        "Exp1Desc2":"Cette expérience a renforcé ma compréhension pratique des architectures orientées services et a consolidé mes compétences techniques dans le développement logiciel.",
+        "Exp1Techs":": Java, Spring Boot, SQL, Spring Cloud, Docker, Kubernetes, PostgreSQL, Spring Security, JUnit, Git",
+
+
+      "Exp2":"Développeur Java Full Stack",
+      "Exp22":"Stage",
+      "Exp222":"Xtensus",
+      "Exp2222":" |  Ariana, Tunisie",
+      "Exp2Titel":"E-EVALUATION",
+        "Exp2SubTitel":": Évaluation électronique des offres",
+        "Exp2Desc1":"J'ai participé au projet E-EVALUATION axé sur l'évaluation électronique des offres et des cahiers des charges. Ma contribution a porté sur le développement en JEE, Spring MVC, Hibernate, JSF. ",
+        "Exp2Desc2":" Cette expérience a renforcé mes compétences dans le développement d'applications web dynamiques et a contribué à ma maîtrise des technologies Java orientées entreprise. ",
+        "Exp2Techs":": java8, JEE, Spring MVC, Hibernate, JSF, PrimeFaces, SQL"
+    },
+
+    "Serv": {
+      "ServTitle": "MES SERVICES",
+      "Serv1Title": "Développement de sites vitrines",
+      "Serv1Desc": "Conception de sites web statiques élégants et réactifs utilisant des technologies modernes. Je veille à ce que votre site web offre une expérience utilisateur fluide avec des temps de chargement rapides et un design visuellement attrayant.",
+
+      "Serv2Title": "Développement de sites web dynamiques",
+      "Serv2Desc": "Renforcez votre présence en ligne avec des sites web dynamiques. Je suis spécialisé dans la création de sites web interactifs et riches en fonctionnalités qui s'adaptent aux préférences des utilisateurs, garantissant une expérience utilisateur dynamique et engageante.",
+
+      "Serv3Title": "Développement d'API REST",
+      "Serv3Desc": "Construction d'API REST robustes et évolutives pour alimenter vos applications. Je me concentre sur une communication efficace des données et une intégration transparente, garantissant une communication efficace entre vos systèmes.",
+
+      "Serv4Title": "Développement d'applications mobiles",
+      "Serv4Desc": "Conception d'applications mobiles innovantes et conviviales adaptées à vos besoins. De la conception au déploiement, je veille à ce que votre application offre une expérience utilisateur exceptionnelle sur différents appareils.",
+
+      "Serv5Title": "Déploiement",
+      "Serv5Desc": "Après les essais et en suivant tous les processus, votre site web ou votre application est prêt à être lancé, assurant un démarrage en douceur et efficace.",
+
+      "Serv6Title": "Support et maintenance",
+      "Serv6Desc": "Après le lancement, je suis là pour fournir un support continu, garantissant que votre site web ou votre application continue de fonctionner sans problème. Des réponses rapides à vos questions et une résolution efficace des problèmes sont mes principales priorités."
+    },
+
+"Portfolio": {
+  "works": "Mes Travaux",
+  "dev": "Développement Web",
+  "demo": "Démo en live",
+  "folio1": "Site Web IA² Team",
+  "folio1Desc": "Site web statique développé avec Angular.",
+  "folio2": "Site Web LG-Groupe",
+  "folio2Desc": "Site web statique développé avec Angular."
+  }
+
+
+
+
+
+
+
+
+  }
