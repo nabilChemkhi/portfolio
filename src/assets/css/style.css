@@ -1182,3 +1182,59 @@ section .container {
 .credits a:hover {
   color: #fff;
 } */
+
+
+/*****8*****/
+/* ==========================================================
+   FIX POUR LES DRAPEAUX (A COLLER TOUT EN BAS DU CSS)
+   ========================================================== */
+
+/* 1. MOBILE : On décale le bouton "Hamburger" vers la gauche */
+/* Actuellement il est à right: 15px, on le met à 100px */
+.mobile-nav-toggle {
+    right: 100px !important; 
+    z-index: 9999;
+}
+
+/* 2. DESKTOP : On ajoute une marge à droite du menu de navigation */
+/* Cela empêche les liens de toucher les drapeaux */
+.navbar {
+    margin-right: 60px !important; 
+}
+
+/* Cas spécifique si le header devient une barre en haut (header-top) */
+#header.header-top .navbar {
+    margin-right: 60px !important;
+}
+
+
+/***/
+/* ==========================================================
+   CORRECTIF SPECIAL MOBILE (Bouton Menu + Drapeaux)
+   ========================================================== */
+
+@media (max-width: 991px) {
+  
+  /* 1. On force le bouton Menu à être TOUT en haut et clickable */
+  .mobile-nav-toggle {
+    z-index: 99999999 !important; /* Au-dessus de tout, même des drapeaux */
+    right: 15px !important;       /* Reste collé à droite */
+    top: 15px !important;
+    position: fixed !important;
+  }
+
+  /* 2. On déplace les drapeaux à GAUCHE du bouton pour ne pas le cacher */
+  .credits.language-switcher {
+    right: 65px !important;       /* On laisse 65px de place pour le bouton à droite */
+    top: 15px !important;         /* Aligné avec le bouton */
+    
+    /* Ajustements esthétiques pour mobile */
+    padding: 5px 10px !important; 
+    gap: 8px !important;
+  }
+  
+  /* On réduit un peu la taille des drapeaux sur mobile pour que ça rentre */
+  .flag-img {
+    width: 24px !important; 
+  }
+}

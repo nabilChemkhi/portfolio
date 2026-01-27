@@ -1,22 +1,52 @@
-<strong>
+<!-- <strong>
   <div class="credits">
     <a
       [style.color]="actvLanguage === 'de' ? 'rgb(238, 20, 20)' : 'white'"
       (click)="switchLanguage('de')"
-      >DE</a
+      >De</a
     >
 
     |
     <a
       [style.color]="actvLanguage === 'en' ? 'rgb(238, 20, 20)' : 'white'"
       (click)="switchLanguage('en')"
-      >EN</a
+      >En</a
     >
     |
     <a
       [style.color]="actvLanguage === 'fr' ? 'rgb(238, 20, 20)' : 'white'"
       (click)="switchLanguage('fr')"
-      >FR</a
+      >Fr</a
     >
   </div>
-</strong>
+</strong> -->
+
+
+
+<div class="credits language-switcher">
+  
+  <img 
+    src="assets/flags/de.svg" 
+    alt="Deutsch"
+    (click)="switchLanguage('de')" 
+    [class.active-lang]="actvLanguage === 'de'" 
+    class="flag-img"
+  >
+
+  <img 
+    src="assets/flags/gb.svg" 
+    alt="English"
+    (click)="switchLanguage('en')" 
+    [class.active-lang]="actvLanguage === 'en'" 
+    class="flag-img"
+  >
+
+  <img 
+    src="assets/flags/fr.svg" 
+    alt="Français"
+    (click)="switchLanguage('fr')" 
+    [class.active-lang]="actvLanguage === 'fr'" 
+    class="flag-img"
+  >
+
+</div>

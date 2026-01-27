@@ -28,3 +28,37 @@
 }
 
 
+/*******/
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between flags */
+  margin-top: 15px;
+}
+
+.flag-img {
+  width: 30px;         /* Adjust size as needed */
+  height: auto;
+  cursor: pointer;
+  opacity: 0.5;        /* Dimmed by default */
+  transition: all 0.3s ease;
+  border-radius: 4px;  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.flag-img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+/* The Active State */
+.flag-img.active-lang {
+  opacity: 1;          /* Fully bright */
+  transform: scale(1.2);
+  border: 2px solid white; /* Optional: Ring around active flag */
+}
+
+
+
+/**************/

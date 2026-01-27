@@ -26,6 +26,7 @@
     "@ngx-translate/core": "^15.0.0",
     "@ngx-translate/http-loader": "^8.0.0",
     "emailjs-com": "^3.2.0",
+    "flag-icons": "^7.5.0",
     "gh-pages": "^6.1.1",
     "i18next": "^17.3.0",
     "i18next-localstorage-backend": "^4.2.0",

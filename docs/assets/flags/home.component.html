@@ -1,0 +1,22 @@
+<strong>
+  <div class="credits">
+    <a
+      [style.color]="actvLanguage === 'de' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('de')"
+      >De</a
+    >
+
+    |
+    <a
+      [style.color]="actvLanguage === 'en' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('en')"
+      >En</a
+    >
+    |
+    <a
+      [style.color]="actvLanguage === 'fr' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('fr')"
+      >Fr</a
+    >
+  </div>
+</strong>
