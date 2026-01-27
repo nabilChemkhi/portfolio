@@ -92,6 +92,28 @@
     "Education33": "IPEIN: Preparatory Institute for Engineering Studies in Nabeul",
     "Education333": "Nabeul, Tunisia"
   },
+  "Cert": {
+    "Title": "Certifications & Training",
+    "Credential": "View Credential",
+
+    "Cert1Title": "Google Cybersecurity Professional Certificate",
+    "Cert1Date": "Sep. 2025 - Dec. 2025",
+    "Cert1Issuer": "Google Career Certificates | INCO Academy",
+    "Cert1Desc": "Completed a rigorous specialization designed to prepare for high-demand cybersecurity roles. Gained a robust understanding of identifying risks, mitigating threats, and securing digital assets using industry-standard tools.",
+    "Cert1Skills": "Key Modules: Linux & SQL Security, Python for Automation, Network Defense, Threat Detection, and Incident Response.",
+
+    "Cert2Title": "Software Development Bootcamp with AI Skills",
+    "Cert2Date": "Mar. 2025 - Aug. 2025",
+    "Cert2Issuer": "GoMyCode",
+    "Cert2Desc": "Completed an intensive 24-week full-stack bootcamp mastering the MERN stack (MongoDB, Express, React, Node.js). Developed dynamic Single-Page Applications (SPAs) and integrated AI-driven tools to optimize development workflows and deploy scalable solutions.",
+    "Cert2Skills": "Key Modules: React.js & Redux, Next.js, TypeScript, Node.js, Express, MongoDB, REST APIs, Git, and AI-Powered Coding (Vibe Coding).",
+
+    "Cert3Title": "Upskilling4Germany Information Technology Programme",
+    "Cert3Date": "Feb. 2026 - Jun. 2026",
+    "Cert3Issuer": "Hub4Africa | Bavaria",
+    "Cert3Desc": "A specialized 17-week modular qualification designed to bridge the gap between international IT experience and German industry standards. Focuses on preparing skilled professionals for the German labor market through recognized certifications and targeted upskilling.",
+    "Cert3Skills": "Key Focus: German IT Industry Standards, Professional Integration, Technical Compliance, and Business Culture."
+  },
   "Exp": {
     "Technologies": "Technologies",
     "Exp": "Professional Experience",
