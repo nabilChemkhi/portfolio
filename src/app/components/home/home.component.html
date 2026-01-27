@@ -1,9 +1,22 @@
 <strong>
   <div class="credits">
+    <a
+      [style.color]="actvLanguage === 'de' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('de')"
+      >DE</a
+    >
 
-    <a [style.color]="actvLanguage==='fr' ? 'rgb(238, 20, 20)' : 'white'" (click)="switchLanguage('fr')">FR</a>
     |
-
-    <a [style.color]="actvLanguage==='en' ? 'rgb(238, 20, 20)' : 'white'" (click)="switchLanguage('en')">EN</a>
+    <a
+      [style.color]="actvLanguage === 'en' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('en')"
+      >EN</a
+    >
+    |
+    <a
+      [style.color]="actvLanguage === 'fr' ? 'rgb(238, 20, 20)' : 'white'"
+      (click)="switchLanguage('fr')"
+      >FR</a
+    >
   </div>
 </strong>
