@@ -1,5 +1,5 @@
 {
-  "PHONE": "+49 15510947674",
+  "PHONE": "+49 1634803799",
   "HOME": "Startseite",
   "ABOUT": "Über mich",
   "SERVICES": "Dienstleistungen",
@@ -21,9 +21,9 @@
     "name": "Name:",
     "name2": "Nabil Chemkhi",
     "phone": "Telefon:",
-    "phone2": "+49 15510947674",
+    "phone2": "+49 1634803799",
     "City": "Stadt:",
-    "City2": "Uelzen, Deutschland",
+    "City2": "Lüneburg, Deutschland",
     "Github": "Github:",
     "Github2": "github.com/nabilChemkhi",
     "Nationality": "Nationalität:",
@@ -58,11 +58,11 @@
     "contct": "Kontakt",
     "contct2": "Kontaktieren Sie mich",
     "Label1": "Meine Adresse",
-    "Input1": "Gartenstraße 44, 29525 Uelzen, Deutschland",
+    "Input1": " Salzstraße 14, 21335 Lüneburg, Deutschland",
     "Label2": "E-Mail senden",
     "Input2": "nabil.chemkhi.info@gmail.com",
     "Label3": "Anrufen",
-    "Input3": "+49 15510947674",
+    "Input3": "+49 1634803799",
     "rs": "Soziale Profile",
     "NAME": "Ihr Name",
     "EMAIL": "Ihre E-Mail",
@@ -75,9 +75,9 @@
     "Resume2": "Meinen Lebenslauf ansehen",
     "Resume3": "Zusammenfassung",
     "Resume4": "Nabil Chemkhi",
-    "adr": "Uelzen, Deutschland",
+    "adr": "Lüneburg, Deutschland",
     "mail": "nabil.chemkhi.info@gmail.com",
-    "phn": "+49 15510947674",
+    "phn": "+49 1634803799",
     "desc": "Leidenschaftlicher und detailorientierter Software-Ingenieur mit Erfahrung in der Konzeption und Entwicklung innovativer und effizienter Softwarelösungen. Engagiert für die Lieferung von qualitativem Code und die Einhaltung von Projektfristen."
   },
   "Education": {
@@ -111,7 +111,7 @@
 
     "Cert3Title": "Upskilling4Germany Information Technology Programme",
     "Cert3Date": "Feb. 2026 - Jun. 2026",
-    "Cert3Issuer": "Hub4Africa | Bayern",
+    "Cert3Issuer": "bbw gGmbH | Bayern",
     "Cert3Desc": "Eine spezialisierte 17-wöchige modulare Qualifizierung, die internationale IT-Erfahrung mit deutschen Industriestandards verbindet. Fokus auf die Vorbereitung qualifizierter Fachkräfte auf den deutschen Arbeitsmarkt durch anerkannte Zertifizierungen und gezieltes Upskilling.",
     "Cert3Skills": "Schwerpunkte: Deutsche IT-Industriestandards, Berufliche Integration, Technische Compliance und Unternehmenskultur."
   },
@@ -150,7 +150,7 @@
 
     "Exp4": "Java Full Stack Entwickler",
     "Exp44": "Spring Boot / Angular",
-    "Exp4Date": "Jan. 2024 - Mär. 2024",
+    "Exp4Date": "Jan. 2024 - Jun. 2024",
     "Exp444": "IA² Team",
     "Exp4444": " | Tunis, Tunesien",
     "Exp4Desc1": "Entwicklung dynamischer Webanwendungen mit Beitrag zu Backend und Frontend.",
