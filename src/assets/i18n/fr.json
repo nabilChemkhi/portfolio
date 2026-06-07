@@ -1,5 +1,5 @@
 {
-  "PHONE": "+49 15510947674",
+  "PHONE": "+49 1634803799",
   "HOME": "Accueil",
   "ABOUT": "À propos",
   "SERVICES": "Services",
@@ -21,9 +21,9 @@
     "name": "Nom :",
     "name2": "Nabil Chemkhi",
     "phone": "Téléphone :",
-    "phone2": "+49 15510947674",
+    "phone2": "+49 1634803799",
     "City": "Ville :",
-    "City2": "Uelzen, Allemagne",
+    "City2": "Lüneburg,, Allemagne",
     "Github": "Github :",
     "Github2": "github.com/nabilChemkhi",
     "Nationality": "Nationalité :",
@@ -58,11 +58,11 @@
     "contct": "Contact",
     "contct2": "Me contacter",
     "Label1": "Mon adresse",
-    "Input1": "Gartenstraße 44, 29525 Uelzen, Allemagne",
+    "Input1": " Salzstraße 14, 21335 Lüneburg, Allemagne",
     "Label2": "Envoyez-moi un e-mail",
     "Input2": "nabil.chemkhi.info@gmail.com",
     "Label3": "Appelez-moi",
-    "Input3": "+49 15510947674",
+    "Input3": "+49 1634803799",
     "rs": "Profils sociaux",
     "NAME": "Votre nom",
     "EMAIL": "Votre e-mail",
@@ -75,9 +75,9 @@
     "Resume2": "Consultez mon CV",
     "Resume3": "Résumé",
     "Resume4": "Nabil Chemkhi",
-    "adr": "Uelzen, Allemagne",
+    "adr": "Lüneburg, Allemagne",
     "mail": "nabil.chemkhi.info@gmail.com",
-    "phn": "+49 15510947674",
+    "phn": "+49 1634803799",
     "desc": "Ingénieur logiciel passionné et soucieux des détails avec de l'expérience dans la conception et le développement de solutions logicielles innovantes et efficaces. Engagé à fournir un code de haute qualité et à respecter les délais du projet."
   },
   "Education": {
@@ -111,7 +111,7 @@
 
     "Cert3Title": "Programme de Mise à Niveau en Technologies de l'Information Upskilling4Germany",
     "Cert3Date": "Fév. 2026 - Juin 2026",
-    "Cert3Issuer": "Hub4Africa | Bavière",
+    "Cert3Issuer": "bbw gGmbH | Bavière",
     "Cert3Desc": "Une qualification modulaire spécialisée de 17 semaines conçue pour combler le fossé entre l'expérience informatique internationale et les normes industrielles allemandes. Axé sur la préparation des professionnels qualifiés au marché du travail allemand grâce à des certifications reconnues et un perfectionnement ciblé.",
     "Cert3Skills": "Points Clés : Normes de l'industrie informatique allemande, Intégration professionnelle, Conformité technique et Culture d'entreprise."
   },
@@ -150,7 +150,7 @@
 
     "Exp4": "Développeur Java Full Stack",
     "Exp44": "Spring Boot / Angular",
-    "Exp4Date": "Jan. 2024 - Mar. 2024",
+    "Exp4Date": "Jan. 2024 - Jui 2024",
     "Exp444": "IA² Team",
     "Exp4444": " | Tunis, Tunisie",
     "Exp4Desc1": "Développement d'applications web dynamiques, contribuant à la fois au backend et au frontend.",
