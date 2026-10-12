@@ -6,13 +6,10 @@
   "RESUME": "Lebenslauf",
   "PORTFOLIO": "Portfolio",
   "CONTACT": "Kontakt",
-
   "Title_Header": "Nabil Chemkhi",
-
   "WELCOME_TITLE1": "Ich bin ein leidenschaftlicher",
   "WELCOME_TITLE2": "Software-Ingenieur",
   "WELCOME_TITLE3": "aus Tunesien",
-
   "About": {
     "contact1": "Über mich",
     "contact2": "Erfahren Sie mehr über mich",
@@ -83,42 +80,44 @@
   "Education": {
     "WebSite": "Webseite",
     "Education": "AUSBILDUNG",
-    "Education1": "SAE: Software Architecture Engineering",
+    "Education1": "Nationales Ingenieur-Diplom in Informatik – Softwarearchitektur",
     "Education11": "ESPRIT: Private Hochschule für Ingenieurwesen und Technologie",
-    "Education111": "Ariana, Tunesien",
-    "Education2": "GL: Software Engineering",
-    "Education22": "ENIT: Nationale Ingenieurschule Tunis",
-    "Education222": "Tunis, Tunesien",
-    "Education3": "MPSI: Mathematik, Physik und Ingenieurwissenschaften",
-    "Education33": "IPEIN: Institut für Vorbereitende Ingenieurstudien Nabeul",
-    "Education333": "Nabeul, Tunesien"
+    "Education111": "Ariana, Tunesien · M.Sc.-Äquivalent (ZAB-bewertet) · EUR-ACE-akkreditiert",
+    "EspritDate": "2020 - 2024",
+    "EspritDesc": "Ingenieurstudium im Bereich Informatik mit Spezialisierung auf Softwarearchitektur (SAE).",
+    "EspritC1": "Softwarearchitektur & Systemdesign: n-Tier-Architekturen, SOA, Architektur von Informationssystemen",
+    "EspritC2": "Software Engineering: Mobile Entwicklung, DevOps, Test und Validierung von Software",
+    "EspritC3": "Daten: NoSQL-Datenbanken, Big Data, Data Mining, Datenbankadministration",
+    "EspritC4": "Systeme & Netzwerke: Netzwerkadministration, IT-Sicherheit, Betriebssysteme",
+    "EspritC5": "Praxis: Integrationsprojekt im Team, Ingenieurpraktikum und Abschlussprojekt (PFE)"
   },
   "Cert": {
-    "Title": "Zertifizierungen & Weiterbildung",
+    "Title": "Weiterbildung",
     "Credential": "Zertifikat ansehen",
-
-    "Cert1Title": "Google Cybersecurity Professional Certificate",
+    "Cert1Title": "Cybersecurity Basics & Network Defense",
     "Cert1Date": "Sep. 2025 - Dez. 2025",
-    "Cert1Issuer": "Google Career Certificates | INCO Academy",
-    "Cert1Desc": "Abschluss einer anspruchsvollen Spezialisierung zur Vorbereitung auf gefragte Rollen in der Cybersicherheit. Fundiertes Verständnis für Risikoidentifikation, Bedrohungsabwehr und Sicherung digitaler Assets mit branchenüblichen Tools erworben.",
-    "Cert1Skills": "Schlüsselmodule: Linux & SQL Sicherheit, Python für Automatisierung, Netzwerkverteidigung, Bedrohungserkennung und Vorfallsreaktion.",
-
-    "Cert2Title": "Software Development Bootcamp mit AI Skills",
+    "Cert1Issuer": "INCO Academy | Google Cybersecurity Certificate",
+    "Cert1Desc": "Online-Weiterbildung mit praktischem Schwerpunkt auf dem Schutz von Netzwerken, Daten und Systemen.",
+    "Cert1Skills": "Inhalte: Linux- und SQL-Sicherheit, Netzwerkverteidigung, Erkennung von Bedrohungen, Incident Response und Automatisierung mit Python.",
+    "Cert2Title": "Software Development Bootcamp mit KI-Schwerpunkt",
     "Cert2Date": "Mär. 2025 - Aug. 2025",
     "Cert2Issuer": "GoMyCode",
     "Cert2Desc": "Abschluss eines intensiven 24-wöchigen Full-Stack-Bootcamps zur Beherrschung des MERN-Stacks (MongoDB, Express, React, Node.js). Entwicklung dynamischer Single-Page-Applications (SPAs) und Integration KI-gesteuerter Tools zur Optimierung von Entwicklungsabläufen.",
     "Cert2Skills": "Schlüsselmodule: React.js & Redux, Next.js, TypeScript, Node.js, Express, MongoDB, REST APIs, Git und KI-gestütztes Coding (Vibe Coding).",
-
-    "Cert3Title": "Upskilling4Germany Information Technology Programme",
-    "Cert3Date": "Feb. 2026 - Jun. 2026",
-    "Cert3Issuer": "bbw gGmbH | Bayern",
-    "Cert3Desc": "Eine spezialisierte 17-wöchige modulare Qualifizierung, die internationale IT-Erfahrung mit deutschen Industriestandards verbindet. Fokus auf die Vorbereitung qualifizierter Fachkräfte auf den deutschen Arbeitsmarkt durch anerkannte Zertifizierungen und gezieltes Upskilling.",
-    "Cert3Skills": "Schwerpunkte: Deutsche IT-Industriestandards, Berufliche Integration, Technische Compliance und Unternehmenskultur."
+    "Cert3Title": "Teilqualifizierung TQ 1: IT-Service (Fachinformatiker/-in für Systemintegration)",
+    "Cert3Date": "Mär. 2026 - Aug. 2026",
+    "Cert3Issuer": "bbw gGmbH | Upskilling4Germany",
+    "Cert3Desc": "Modulare Teilqualifizierung (6 Monate) im Rahmen des Programms „Upskilling4Germany“. Abschluss mit der Note „Sehr gut“ (95/100).",
+    "Cert3Skills": "Inhalte: Systemkonfiguration, IT-Sicherheit, Netzwerke, Hardware-Service, IT-Compliance in Deutschland und agiles Arbeiten.",
+    "Cert4Title": "Full-Stack Web Development",
+    "Cert4Date": "Sep. 2026 - heute",
+    "Cert4Issuer": "ReDI School of Digital Integration | Hamburg (hybrid)",
+    "Cert4Desc": "Praxisnahe Weiterbildung (ca. 6 Monate) mit Schwerpunkt auf moderner Webentwicklung. Arbeit an agilen Projekten im Team, begleitet von Senior Engineers aus der Industrie.",
+    "Cert4Skills": "Schwerpunkte: React, JavaScript, TypeScript, agile Teamarbeit."
   },
   "Exp": {
     "Technologies": "Technologien",
     "Exp": "Berufserfahrung",
-
     "Exp1": "Java Backend Entwickler",
     "Exp11": "Praktikum",
     "Exp111": "GD CollectData",
@@ -128,7 +127,6 @@
     "Exp1Desc1": "Ich habe zum Projekt iMakerBot beigetragen. Meine Rolle umfasste die Erstellung von RESTful APIs, die Entwicklung von Microservices mit Spring Cloud, Docker, Kubernetes und die Integration von NLP.",
     "Exp1Desc2": "Diese Erfahrung stärkte mein praktisches Verständnis für serviceorientierte Architekturen und festigte meine technischen Fähigkeiten in der Softwareentwicklung.",
     "Exp1Techs": ": Java, Spring Boot, SQL, Spring Cloud, Docker, Kubernetes, PostgreSQL, Spring Security, JUnit, Git",
-
     "Exp2": "Java Full Stack Entwickler",
     "Exp22": "Praktikum",
     "Exp222": "Xtensus",
@@ -138,7 +136,6 @@
     "Exp2Desc1": "Teilnahme am Projekt E-EVALUATION, das sich auf die elektronische Bewertung von Angeboten konzentriert. Mein Beitrag umfasste die Entwicklung in JEE, Spring MVC, Hibernate und JSF.",
     "Exp2Desc2": "Diese Erfahrung verbesserte meine Fähigkeiten in der Entwicklung dynamischer Webanwendungen und trug zu meiner Beherrschung unternehmensorientierter Java-Technologien bei.",
     "Exp2Techs": ": Java8, JEE, Spring MVC, Hibernate, JSF, PrimeFaces, SQL",
-
     "Exp3": "IT-Trainer / Software-Dozent",
     "Exp33": "Dozent für Softwareentwicklung",
     "Exp3Date": "Okt. 2024 - Mai 2025",
@@ -147,7 +144,6 @@
     "Exp3Desc1": "Durchführung strukturierter Schulungen in Informatik und Softwareentwicklung.",
     "Exp3Desc2": "Betreuung von Lernenden bei praktischen Übungen und angewandten Projekten.",
     "Exp3Desc3": "Erstellung von Lehrmaterialien, Präsentationen und technischen Aufgaben.",
-
     "Exp4": "Java Full Stack Entwickler",
     "Exp44": "Spring Boot / Angular",
     "Exp4Date": "Jan. 2024 - Jun. 2024",
@@ -156,7 +152,6 @@
     "Exp4Desc1": "Entwicklung dynamischer Webanwendungen mit Beitrag zu Backend und Frontend.",
     "Exp4Desc2": "Stärkung der Zusammenarbeit durch Teilnahme an einem teamorientierten Entwicklungsumfeld.",
     "Exp4Techs": ": Java, Spring Boot, Angular, HTML, CSS, Firebase, Git",
-
     "Exp5": "Mitgründer & Kfz-Techniker",
     "Exp55": "Unternehmertum / Technische Dienstleistungen",
     "Exp5Date": "Mär. 2016 - Mai 2020",
@@ -171,19 +166,14 @@
     "ServTitle": "MEINE DIENSTLEISTUNGEN",
     "Serv1Title": "Entwicklung statischer Websites",
     "Serv1Desc": "Erstellung eleganter und reaktionsschneller statischer Websites unter Verwendung moderner Technologien. Ich sorge für eine nahtlose Benutzererfahrung mit schnellen Ladezeiten und visuell ansprechendem Design.",
-
     "Serv2Title": "Entwicklung dynamischer Websites",
     "Serv2Desc": "Stärken Sie Ihre Online-Präsenz mit dynamischen Websites. Ich spezialisiere mich auf interaktive und funktionsreiche Websites, die sich an Benutzerpräferenzen anpassen und eine ansprechende Nutzererfahrung bieten.",
-
     "Serv3Title": "REST-API-Entwicklung",
     "Serv3Desc": "Aufbau robuster und skalierbarer RESTful APIs für Ihre Anwendungen. Ich konzentriere mich auf effiziente Datenkommunikation und nahtlose Integration, damit Ihre Systeme effektiv miteinander kommunizieren.",
-
     "Serv4Title": "Mobile App-Entwicklung",
     "Serv4Desc": "Entwicklung innovativer und benutzerfreundlicher mobiler Apps, die auf Ihre Bedürfnisse zugeschnitten sind. Vom Konzept bis zum Deployment sorge ich für eine außergewöhnliche Nutzererfahrung auf verschiedenen Geräten.",
-
     "Serv5Title": "Deployment / Bereitstellung",
     "Serv5Desc": "Nach Tests und Einhaltung aller Prozesse ist Ihre Website oder Anwendung bereit für den Start, was einen reibungslosen und effizienten Go-Live gewährleistet.",
-
     "Serv6Title": "Support & Wartung",
     "Serv6Desc": "Nach dem Launch biete ich laufenden Support, um sicherzustellen, dass Ihre Website oder Anwendung weiterhin reibungslos funktioniert. Schnelle Antworten auf Ihre Fragen und effiziente Problemlösung haben für mich oberste Priorität."
   },

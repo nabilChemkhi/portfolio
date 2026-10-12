@@ -17,7 +17,7 @@ export class LanguageService {
   }
 
   getLanguage() {
-    return localStorage.getItem('language') || 'en'; // default language
+    return localStorage.getItem('language') || 'de'; // default language
   }
 
   initializeLanguage() {
@@ -26,7 +26,7 @@ export class LanguageService {
 
   }
 
-  private activeLanguageSubject = new BehaviorSubject<string>('en');
+  private activeLanguageSubject = new BehaviorSubject<string>('de');
   public activeLanguage$ = this.activeLanguageSubject.asObservable();
 
   setActiveLanguage(language: string): void {

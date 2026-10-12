@@ -28,10 +28,10 @@ import XHR from 'i18next-xhr-backend';
 })
 export class HomeComponent {
 aboutLink='/about'
-actvLanguage:string='en'
+actvLanguage:string='de'
 constructor(private translate: TranslateService,private languageService: LanguageService){
- translate.setDefaultLang('en'); // Set the default language
- translate.use('en'); // Use English as the initial language
+ translate.setDefaultLang('de'); // Set the default language
+ translate.use('de'); // Use German as the initial language
 
 
 
@@ -66,8 +66,8 @@ translate1(key: string) {
          .use(xhr)
 
          .init({
-           lng: 'en',
-           fallbackLng: 'en',
+           lng: 'de',
+           fallbackLng: 'de',
           // loadPath: '/assets/i18n/{{lng}}.json',
         //   savePath: '/assets/i18n/{{lng}}.json',
         // backend: this.options,

@@ -6,9 +6,7 @@
   "RESUME": "Resume",
   "PORTFOLIO": "Portfolio",
   "CONTACT": "Contact",
-
   "Title_Header": "Nabil Chemkhi",
-
   "WELCOME_TITLE1": "I'm a passionate",
   "WELCOME_TITLE2": "Software engineer",
   "WELCOME_TITLE3": "from Tunisia",
@@ -81,43 +79,45 @@
   },
   "Education": {
     "WebSite": "Web Site",
-    "Education": "Education",
-    "Education1": "SAE: Software Architecture Engineering",
+    "Education": "EDUCATION",
+    "Education1": "National Engineering Diploma in Computer Science – Software Architecture",
     "Education11": "ESPRIT: Private School of Engineering and Technologies",
-    "Education111": "Ariana, Tunisia",
-    "Education2": "SE: Software Engineering",
-    "Education22": "ENIT: National School of Engineers of Tunis",
-    "Education222": "Tunis, Tunisia",
-    "Education3": "MPSI: Mathematics, Physics, and Engineering Sciences",
-    "Education33": "IPEIN: Preparatory Institute for Engineering Studies in Nabeul",
-    "Education333": "Nabeul, Tunisia"
+    "Education111": "Ariana, Tunisia · M.Sc. equivalent (ZAB-assessed) · EUR-ACE accredited",
+    "EspritDate": "2020 - 2024",
+    "EspritDesc": "Engineering degree in Computer Science, specializing in Software Architecture (SAE).",
+    "EspritC1": "Software architecture & system design: n-tier architectures, SOA, information systems architecture",
+    "EspritC2": "Software engineering: mobile development, DevOps, software testing and validation",
+    "EspritC3": "Data: NoSQL databases, big data, data mining, database administration",
+    "EspritC4": "Systems & networks: network administration, IT security, operating systems",
+    "EspritC5": "Hands-on: team integration project, engineering internship and final-year project (PFE)"
   },
   "Cert": {
-    "Title": "Certifications & Training",
+    "Title": "Professional Training",
     "Credential": "View Credential",
-
-    "Cert1Title": "Google Cybersecurity Professional Certificate",
+    "Cert1Title": "Cybersecurity Basics & Network Defense",
     "Cert1Date": "Sep. 2025 - Dec. 2025",
-    "Cert1Issuer": "Google Career Certificates | INCO Academy",
-    "Cert1Desc": "Completed a rigorous specialization designed to prepare for high-demand cybersecurity roles. Gained a robust understanding of identifying risks, mitigating threats, and securing digital assets using industry-standard tools.",
-    "Cert1Skills": "Key Modules: Linux & SQL Security, Python for Automation, Network Defense, Threat Detection, and Incident Response.",
-
-    "Cert2Title": "Software Development Bootcamp with AI Skills",
+    "Cert1Issuer": "INCO Academy | Google Cybersecurity Certificate",
+    "Cert1Desc": "Online training focused on protecting networks, data and systems in practice.",
+    "Cert1Skills": "Topics: Linux and SQL security, network defense, threat detection, incident response and Python scripting for automation.",
+    "Cert2Title": "Software Development Bootcamp with AI Focus",
     "Cert2Date": "Mar. 2025 - Aug. 2025",
     "Cert2Issuer": "GoMyCode",
     "Cert2Desc": "Completed an intensive 24-week full-stack bootcamp mastering the MERN stack (MongoDB, Express, React, Node.js). Developed dynamic Single-Page Applications (SPAs) and integrated AI-driven tools to optimize development workflows and deploy scalable solutions.",
     "Cert2Skills": "Key Modules: React.js & Redux, Next.js, TypeScript, Node.js, Express, MongoDB, REST APIs, Git, and AI-Powered Coding (Vibe Coding).",
-
-    "Cert3Title": "Upskilling4Germany Information Technology Programme",
-    "Cert3Date": "Feb. 2026 - Jun. 2026",
-    "Cert3Issuer": "bbw gGmbH | Bavaria",
-    "Cert3Desc": "A specialized 17-week modular qualification designed to bridge the gap between international IT experience and German industry standards. Focuses on preparing skilled professionals for the German labor market through recognized certifications and targeted upskilling.",
-    "Cert3Skills": "Key Focus: German IT Industry Standards, Professional Integration, Technical Compliance, and Business Culture."
+    "Cert3Title": "Partial Qualification TQ 1: IT Service (IT Specialist for System Integration)",
+    "Cert3Date": "Mar. 2026 - Aug. 2026",
+    "Cert3Issuer": "bbw gGmbH | Upskilling4Germany",
+    "Cert3Desc": "Modular 6-month partial qualification within the \"Upskilling4Germany\" program. Completed with grade \"very good\" (95/100).",
+    "Cert3Skills": "Topics: system configuration, IT security, networking, hardware service, IT compliance in Germany and agile working.",
+    "Cert4Title": "Full-Stack Web Development",
+    "Cert4Date": "Sep. 2026 - present",
+    "Cert4Issuer": "ReDI School of Digital Integration | Hamburg (hybrid)",
+    "Cert4Desc": "Hands-on training program (approx. 6 months) focused on modern web development. Agile team projects, mentored by senior engineers from industry.",
+    "Cert4Skills": "Focus: React, JavaScript, TypeScript, agile teamwork."
   },
   "Exp": {
     "Technologies": "Technologies",
     "Exp": "Professional Experience",
-
     "Exp1": "Java backend Developer",
     "Exp11": "Internship ",
     "Exp111": "GD CollectData",
@@ -127,7 +127,6 @@
     "Exp1Desc1": "I contributed to the iMakerBot project. My role involved creating RESTful APIs, developing microservices with Spring Cloud, Docker, Kubernetes, and integrating NLP. ",
     "Exp1Desc2": "This experience enhanced my practical understanding of service-oriented architectures and solidified my technical skills in software development.",
     "Exp1Techs": ": Java, Spring Boot, SQL, Spring Cloud, Docker, Kubernetes, PostgreSQL, Spring Security, JUnit, Git",
-
     "Exp2": "Java Full Stack Developer",
     "Exp22": "Internship",
     "Exp222": "Xtensus",
@@ -137,7 +136,6 @@
     "Exp2Desc1": "Participated in the E-EVALUATION project focused on the electronic evaluation of bids. My contribution involved development in JEE, Spring MVC, Hibernate, and JSF. ",
     "Exp2Desc2": "This experience enhanced my skills in dynamic web application development and contributed to my proficiency in enterprise-oriented Java technologies.",
     "Exp2Techs": ": Java8, JEE, Spring MVC, Hibernate, JSF, PrimeFaces, SQL",
-
     "Exp3": "IT Trainer / Software Instructor",
     "Exp33": "Software Development Instructor",
     "Exp3Date": "Oct.2024 - May 2025",
@@ -146,7 +144,6 @@
     "Exp3Desc1": "Delivered structured training in computer science and software development.",
     "Exp3Desc2": "Supervised learners during practical exercises and applied projects.",
     "Exp3Desc3": "Designed educational materials, presentations, and technical assignments.",
-
     "Exp4": "Java Full Stack Developer",
     "Exp44": "Spring Boot / Angular",
     "Exp4Date": "Jan.2024 - Jun.2024",
@@ -155,7 +152,6 @@
     "Exp4Desc1": "Developed dynamic web applications, contributing to both backend and frontend development.",
     "Exp4Desc2": "Strengthened collaboration skills through participation in a team-based development environment.",
     "Exp4Techs": ": Java, Spring Boot, Angular, HTML, CSS, Firebase, Git",
-
     "Exp5": "Co-Founder & Automotive Technician",
     "Exp55": "Entrepreneurship / Technical Services",
     "Exp5Date": "Mar.2016 - May 2020",
